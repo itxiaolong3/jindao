@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://www.we7.cc" versionCode="">
+	<application setting="false">
+		<name><![CDATA[金导旅游]]></name>
+		<identifie><![CDATA[jindao_travel]]></identifie>
+		<version><![CDATA[1.0]]></version>
+		<type><![CDATA[business]]></type>
+		<ability><![CDATA[金导旅游管理系统]]></ability>
+		<description><![CDATA[金导旅游]]></description>
+		<author><![CDATA[itxiaolong]]></author>
+		<url><![CDATA[https://pj.dede1.com]]></url>
+	</application>
+	<platform>
+		<subscribes>
+		</subscribes>
+		<handles>
+		</handles>
+		<rule embed="false" />
+		<card embed="false" />
+		<supports>
+			<item type="wxapp" />
+		</supports>
+	</platform>
+	<bindings>
+		<menu>
+			<entry title="管理中心" do="site" state="" direct="false" />
+		</menu>
+		<page>
+			<entry title="首页" do="/jindao_travel/pages/index/index" state="" direct="" />
+			<entry title="个人中心" do="/jindao_travel/pages/my/my" state="" direct="" />
+		</page>
+	</bindings>
+	<permissions>
+	</permissions>
+	<install><![CDATA[]]></install>
+	<uninstall><![CDATA[]]></uninstall>
+	<upgrade><![CDATA[]]></upgrade>
+</manifest>
